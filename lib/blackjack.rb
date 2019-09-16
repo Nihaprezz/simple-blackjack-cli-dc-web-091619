@@ -32,6 +32,16 @@ end
 def hit?(total)
   prompt_user
   get_user_input
+  
+  #if the players input is s we dont deal a new card 
+  if get_user_input = "s"
+    return total 
+  end
+  
+  #if the player input is h we do need to deal a new card 
+  
+  #if it is neither h or s call on invalid_command then call prompt user again
+  
 end
 
 def invalid_command
