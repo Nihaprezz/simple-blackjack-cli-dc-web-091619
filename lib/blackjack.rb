@@ -38,7 +38,7 @@ def hit?(total)
     return total 
   elsif get_user_input = "h"
   #if the player input is h we do need to deal a new card 
-    return total + deal_card
+    return deal_card
   end
   #if it is neither h or s call on invalid_command then call prompt user again
   
